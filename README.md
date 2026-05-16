@@ -23,4 +23,4 @@ This project was created to practice front-end web development skills and improv
 2. Open `index.html` in your browser
 
 ```bash
-git clone 
+git clone  https://povijayraj.github.io/Udemy-clone-website/
