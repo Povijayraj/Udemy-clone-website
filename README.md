@@ -14,6 +14,7 @@ A responsive Udemy Clone website built using HTML and CSS. This project recreate
 - HTML5
 - CSS3
 - Flexbox
+- Flexgrid
 
 ## 📂 Project Purpose
 This project was created to practice front-end web development skills and improve responsive website design using HTML and CSS.
