@@ -76,6 +76,8 @@ align-items: center;
     display: none;
 
 }
+
+
 .Mylearning:hover .Mylearning__popup{
         display: block;
     }
@@ -92,7 +94,7 @@ align-items: center;
     border: solid black 1px;
     justify-content: space-around;
     flex-wrap: wrap;
-    cursor: pointer;
+    
 
 }
 
@@ -101,12 +103,15 @@ align-items: center;
     color: white;
     padding: 10px;
     border-radius: 30px;
-
-
+    border: solid #9235D7 1px;
+    cursor: pointer;
 }
 
 .categories p:hover{
     color: black;
+    background-color: white;
+    border: solid #9235D7 1px;
+    transition-duration: 1s;
 }
 
 
@@ -124,9 +129,22 @@ align-items: center;
     position: absolute;
     top: 10%;
     left: 5%;
+    animation-name: zoom;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
 }
 
-
+@keyframes zoom {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
 
 .recommended{
     padding: 10px;
